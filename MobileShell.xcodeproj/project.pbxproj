@@ -1,0 +1,1269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01805A6AF891F3BE9CC21FF9 /* PortForwardingStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC81514E2B594FDCDB546DA /* PortForwardingStoreTests.swift */; };
+		0206C8D9389D7CA2BB042BE7 /* HostGroupIdentityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F84E25120E411BEEF57C44D /* HostGroupIdentityTests.swift */; };
+		030C8C5F5418167044E20F25 /* locales.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18F30C7B429EF7F9EBE3E395 /* locales.bundle */; };
+		04B477020ADF9708D5956EDC /* HostStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4703B17BE5786BAE5F966E28 /* HostStoreTests.swift */; };
+		07682DECEC930A6A5F0093F7 /* MoshTerminalConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F2EA1268B62E40ABBAA6E8 /* MoshTerminalConnector.swift */; };
+		0BA36F4B7339E93B33619212 /* MobileShellStoreTerminalCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D0E8F5968BC0CE373EB156 /* MobileShellStoreTerminalCommands.swift */; };
+		0DFF1B985B3EE92109F9BB15 /* HostGroupStartupSnippetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 064CB2CF4383F9188AAB27E5 /* HostGroupStartupSnippetTests.swift */; };
+		136968053B8EFF3C03D0BC7B /* TerminalWorkspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794C48A6FE38487D4AEBF2E2 /* TerminalWorkspace.swift */; };
+		141E481A1D30A0D75355AE5D /* MobileShellStoreTerminalBootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4862E6D7857CA02FF7714750 /* MobileShellStoreTerminalBootstrap.swift */; };
+		18FA2E1956440D409044EA31 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 678FF66499FCDC8A467F6283 /* libz.tbd */; };
+		1B3D2A7DA56937D2DE91E517 /* KnownHostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49A4858DD16E1A3D08FB98B /* KnownHostsView.swift */; };
+		217800053E802CD724B95544 /* SFTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB857BA18C47C5EEB692051 /* SFTPView.swift */; };
+		24E2B923D3E1DB63BFA68BB6 /* SessionLogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC55C02AE66298B6BFA76A2D /* SessionLogDetailView.swift */; };
+		268AF9B3A91900A6B6DFFD5F /* MobileShellStoreSFTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B24A2E10E4592CB281EDA /* MobileShellStoreSFTP.swift */; };
+		2815A2BF8F6C21AD8A1B9D02 /* SessionLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBA66A376025C06A25B8EAA /* SessionLog.swift */; };
+		284AE247F2708CBDFC413D3D /* TerminalTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3394D569EA8021A3BC8FC075 /* TerminalTheme.swift */; };
+		2B798F37EBBD30942FEA02A1 /* MobileShellStoreSessionLogBookmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4AE07716C3529C1AB87126 /* MobileShellStoreSessionLogBookmarks.swift */; };
+		363709F2AF5496296B4AF760 /* MoshHostConfigurationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693A789EB57FD8D3261AFBF4 /* MoshHostConfigurationTests.swift */; };
+		383F0D65CEC5065120EF73D8 /* EnvironmentVariablesTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D24199BC62D3B4DF1FF7CDC /* EnvironmentVariablesTextEditor.swift */; };
+		3B40B91CA286B6C425903636 /* SessionLogBookmarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6A8F062C263E4F983E467 /* SessionLogBookmarkTests.swift */; };
+		402F1E1150334C239D0A7449 /* SnippetStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FD2847EC02EDC18A323E40 /* SnippetStoreTests.swift */; };
+		4266895DB779403121A1E8E3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5621F770A209859C078BCB9 /* SettingsView.swift */; };
+		45627C1C66EEB901266E2039 /* SnippetMultiExecutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494D1464D067ABF9D3FB838B /* SnippetMultiExecutionTests.swift */; };
+		4689E3B282BF22CB45B3FE84 /* MobileShellStoreTerminalSessions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFBEE48E47D872D33C37209 /* MobileShellStoreTerminalSessions.swift */; };
+		492FA19A922C3FE19359C800 /* TerminalFontSizeInheritanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1680DE54272EFDCA40196 /* TerminalFontSizeInheritanceTests.swift */; };
+		49CA2EE375009973D618A1F2 /* ShellRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BABA194A71CD61B6D0241454 /* ShellRootView.swift */; };
+		4A3388C89B56AC81AE08E372 /* HostEnvironmentVariableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675B50E38A159AC71AE654F4 /* HostEnvironmentVariableTests.swift */; };
+		4A5B0506D175AE9CCBA1BA3A /* SSHMoshPreparationClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2EF186D903C98B8288E304 /* SSHMoshPreparationClientTests.swift */; };
+		4AB026441D8DD50136B14DB8 /* Protobuf_C_.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 807E42DE436546ACE7DAF2B8 /* Protobuf_C_.xcframework */; };
+		4CA64858ADBEEABD29B9180D /* MoshEndToEndIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C57D9B505AF1D9893F603 /* MoshEndToEndIntegrationTests.swift */; };
+		4D998460556D2484A71A3E1A /* MoshPreparationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24AF85E89F97826431422D4 /* MoshPreparationClient.swift */; };
+		52A2E3DBFDB3B69637FAAD74 /* HostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CDEE0E4643FBDFFBCDCA5C /* HostsView.swift */; };
+		5BBAFC8D9A83038208C59D78 /* SOCKS5DynamicPortForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF0BB78083FC95577E12029 /* SOCKS5DynamicPortForwarding.swift */; };
+		5D0FE02ADFFB6E7C79273F31 /* SnippetPackageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B66E50BC01627D9C9CB575 /* SnippetPackageTests.swift */; };
+		5E2B64F643E868B8A4CC74BC /* Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = 6CFD5DF75CAD26F57847BF86 /* Crypto */; };
+		5EDDED09E2599985F5FAFFC6 /* MoshServerLaunchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1752F3FBA57B5436D17AAE2C /* MoshServerLaunchResult.swift */; };
+		5EEBF68344A6645DAC4CFC27 /* HostGroupProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA0160B4195B188DEAADFDF /* HostGroupProfile.swift */; };
+		5F842A9E98C56C9EB98D57BD /* NIO in Frameworks */ = {isa = PBXBuildFile; productRef = D12DCFB7EDFBC7E557B0C80B /* NIO */; };
+		60A2E7F828DE70DD3AD45C39 /* MobileShellStoreWorkspaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2388246F3C61B6796A18CCA /* MobileShellStoreWorkspaces.swift */; };
+		60A85E017B7BF7B6AA66C10B /* MobileShellStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF36C4FA38ADB41D34796A34 /* MobileShellStoreTests.swift */; };
+		632984B4243821D5CC6FEB40 /* KeychainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D707EF25D93E0BEBB93F0E2 /* KeychainView.swift */; };
+		6429F9219DAAF545D2EED842 /* MobileShellStoreTerminalShellLifecycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F7E23A41B3BA333011B712 /* MobileShellStoreTerminalShellLifecycle.swift */; };
+		6839CA6D98C712D050E47281 /* HostChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DA452325AB89BAACD96494C /* HostChainTests.swift */; };
+		6B254A2DC25981AB440E6F5C /* TerminalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBDB6FA53D765118864BA3D /* TerminalView.swift */; };
+		6BB361F1B131F218B608DBFD /* mosh.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBB47449D48695B09185642 /* mosh.xcframework */; };
+		6FAF2EA584AE5DF7AA81BCCD /* MoshPreparationParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50585395CDB87BD5C6C64BC /* MoshPreparationParserTests.swift */; };
+		70486E46C21949BE2BABFE51 /* RemoteAccessProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4722AC14BF8C56D78F9AC36F /* RemoteAccessProtocol.swift */; };
+		70B6AED4EDE2594137EDDC9C /* ShellConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74C4842A3DBFF7E54B72699 /* ShellConnection.swift */; };
+		71223226B9A191EED5CA64B7 /* TerminalWorkspaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80498B8D3E4C986574552F8F /* TerminalWorkspaceTests.swift */; };
+		74A60A4F49CA948579FED962 /* TerminalWorkspaceTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F83AAC3C1362A8AEA95017C /* TerminalWorkspaceTemplate.swift */; };
+		7727C4CBAEC01F98F85AB68A /* MoshRuntimeClientBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7882BA7753F0DD6A4139A797 /* MoshRuntimeClientBridge.swift */; };
+		7C446CC9A84A6B3826270C1D /* MoshRuntimeClientBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37819F1BA251E6D8D89107F9 /* MoshRuntimeClientBridgeTests.swift */; };
+		7EC51BA9F7F7442B6F0A7F68 /* MoshClientBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6B9DDFDD301C547BE7F2718 /* MoshClientBridge.mm */; };
+		816E53454BC46BD6EC4F4CC9 /* Citadel in Frameworks */ = {isa = PBXBuildFile; productRef = 564FE2606D596831E931C4BF /* Citadel */; };
+		81E69E9A9194921D5FCD3642 /* MobileShellStoreAuthenticationAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CA2CA238CB79937FDAE134 /* MobileShellStoreAuthenticationAssets.swift */; };
+		836BD542F5E78B2F72F8AB30 /* TerminalWorkspaceSwitcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C411F593E0D9A96515BB787C /* TerminalWorkspaceSwitcher.swift */; };
+		890232F75FEA087639B7CAD4 /* MobileShellStorePortForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CA27113DCBD9C1BB73BC2B /* MobileShellStorePortForwarding.swift */; };
+		8BF4BF986B1AB42C988146C3 /* MoshPreparationParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2987DA84F21A5F9373A58CF /* MoshPreparationParser.swift */; };
+		90609144F8D82E2D3DFA529E /* MoshTerminalRuntimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FC8FF05C80E33622F47696 /* MoshTerminalRuntimeTests.swift */; };
+		90EB9C119A7937ED9BF2933C /* PortForwardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305391382B169A8933854BEF /* PortForwardingView.swift */; };
+		914670E23817B76F7AF4AAB7 /* PortForwardingTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8408515CEB141674E913CF17 /* PortForwardingTypeTests.swift */; };
+		9268BBFF44F7CBC19ADEEB82 /* MobileShellStorePersistenceHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA72C93585171C40A206DF2 /* MobileShellStorePersistenceHelpers.swift */; };
+		999F49516C8ADC87074DAF04 /* TerminalThemeInheritanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4A4EE270C849D824AE963B /* TerminalThemeInheritanceTests.swift */; };
+		9C6277E665DCEE50B13479BF /* DynamicPortForwardingEndToEndIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C65C779A6B1A9022C2977B7 /* DynamicPortForwardingEndToEndIntegrationTests.swift */; };
+		9E351169BEE0B5389C24DC74 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45145DD3CBE8B384E6158622 /* Models.swift */; };
+		A0453DFCB45D15BCC7AF5F0D /* MobileShellStoreTestDoubles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC560F27CA8AA8A586DE90C /* MobileShellStoreTestDoubles.swift */; };
+		A12D931EA0F9854C395E1772 /* MobileShellPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AF15DB59528D995AC0A264 /* MobileShellPersistenceTests.swift */; };
+		A7864ED2CA65C9A6F35EA8FA /* MoshClientBridgeSmokeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0504AE19E8FBA64E234A84 /* MoshClientBridgeSmokeTests.swift */; };
+		AA0E4894DB3C31CAF753808E /* SessionLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FB4937E62DB4627B80D0A7 /* SessionLogTests.swift */; };
+		AAE2FF49DF1E046C12FC4314 /* SOCKS5DynamicPortForwardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7267B7244C20490805E05 /* SOCKS5DynamicPortForwardingTests.swift */; };
+		B3668464A6FD6079852BB12B /* HostTagNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A420A2E28738FCE2B5B41C /* HostTagNavigationTests.swift */; };
+		B3BDB23A890166636D32C17F /* SSHCertificateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21B7266063E860DB1A79DDD /* SSHCertificateTests.swift */; };
+		B6D31F411CE9F085BC7E1933 /* NIOSSH in Frameworks */ = {isa = PBXBuildFile; productRef = B9325A43A4370F6BC23B4381 /* NIOSSH */; };
+		B73A0986D29ECFF1FBBC7AF1 /* AuthenticationAssetsStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7734A66130669BAC91F718 /* AuthenticationAssetsStoreTests.swift */; };
+		B7FB44D356F6B2BDED42D70C /* MoshRuntimeSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADC192F948E4E90825C0E7 /* MoshRuntimeSession.swift */; };
+		BA9C9F6118AC764849A5F3C2 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4143FB74A7C3B03C3659CA /* Persistence.swift */; };
+		BC8493AEF6271A5D38D9AE76 /* StartupSnippetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31085DC886A147787381CAA3 /* StartupSnippetTests.swift */; };
+		BFE2864C697CFE33475115E2 /* MobileShellStoreSnippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396655B69B4B698CB0942072 /* MobileShellStoreSnippets.swift */; };
+		C1672ACF335D8C396F9A7AB0 /* ShellEnvironmentVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF153045FD797313A3ECD93 /* ShellEnvironmentVariable.swift */; };
+		C2FFB4CAE5D5825FF05336BF /* CommandAutocompleteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD7F988857950CE7609D04 /* CommandAutocompleteTests.swift */; };
+		C672B708E9D0E44912F3CECA /* KnownHostStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7226A9A81F20AD2A785F37B /* KnownHostStoreTests.swift */; };
+		C70A28C88063529A2158054B /* SFTPStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055E11C671312181C981EF09 /* SFTPStoreTests.swift */; };
+		C7B12C58B22AE27745EA9832 /* TerminalReconnectStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9B78130A2D1EB06CF994CD /* TerminalReconnectStoreTests.swift */; };
+		C7D448BD5A1B30C3A2636324 /* NIOPosix in Frameworks */ = {isa = PBXBuildFile; productRef = D3CB542815077430584B3C6F /* NIOPosix */; };
+		CBCD2BCDC82A2B0AB2CF17BC /* SessionLogsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417181D8E6A55AA47E3E60E2 /* SessionLogsView.swift */; };
+		CC2F6CB75BA88A4A07FD0AC7 /* CommandSuggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC84F2681EA163543B9037 /* CommandSuggestion.swift */; };
+		D04BDCBD6F2035C646D95EC6 /* MobileShellStoreKnownHosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BC251E046A466ADBFB66B4 /* MobileShellStoreKnownHosts.swift */; };
+		D55856E68DA8C9317D4DB3F0 /* MobileShellStoreHostGroupProfiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E88921308A2C052DEC3485CC /* MobileShellStoreHostGroupProfiles.swift */; };
+		D979CCC7BC9A5C51C9D52FCC /* MobileShellStoreHosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF5572775E7782D0F2C052 /* MobileShellStoreHosts.swift */; };
+		D9A40E7F22D629A86FE7BB02 /* Protobuf_C_.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 807E42DE436546ACE7DAF2B8 /* Protobuf_C_.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DD850FFB45E1AE2489931A2B /* CitadelMoshPreparationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5D283425B8306182EDC81D /* CitadelMoshPreparationClient.swift */; };
+		DDB8B3CB7C5DD3F41CA80E11 /* TerminalWorkspaceTemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072E3A05D86970EC42C89931 /* TerminalWorkspaceTemplateTests.swift */; };
+		E1E1F2AD0944986C58F075C9 /* NIOSSH in Frameworks */ = {isa = PBXBuildFile; productRef = 4D0CC2B65CF0F0C7365E7172 /* NIOSSH */; };
+		E46F90D684AB11BD341D75C9 /* MoshRuntimeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F9E7773A803BFD728A9233 /* MoshRuntimeClient.swift */; };
+		E54E26242B2F2AB1E76DB198 /* MoshPreparationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00679781738AEAECDD4DD8AD /* MoshPreparationError.swift */; };
+		E6969988C656E548D845CABA /* CommandSuggestionStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D22725450EA4D6A4E168B6B /* CommandSuggestionStrip.swift */; };
+		E81D806D28C2CAAA7966A0F3 /* MoshHostConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7FC163B88BA300DA2B194F /* MoshHostConfiguration.swift */; };
+		E8DE4B7A19B6EBF703FB6ADF /* mosh.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8DBB47449D48695B09185642 /* mosh.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA741C8626676657D5CCFB9A /* TerminalShellLifecycleStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CA0AE4B219D3516A9FD88F /* TerminalShellLifecycleStoreTests.swift */; };
+		ED06EA34F6924E548822C49E /* MobileShellStoreSessionLogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC69D6B46EA2D5E21940D2 /* MobileShellStoreSessionLogs.swift */; };
+		EE83739C1E7EBA62C004CAFB /* MoshRuntimeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9F8674511C77471F72FBA /* MoshRuntimeError.swift */; };
+		F1FC7688DFBC2F124072708E /* CommandAutocompleteEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3590CF8940AD91620348E4B /* CommandAutocompleteEngine.swift */; };
+		F7029A378632BDDBB4FB3D90 /* Crypto in Frameworks */ = {isa = PBXBuildFile; productRef = 2BE4BAF7EB71462B5FF2B7BE /* Crypto */; };
+		F77DE2F2D48F4DA6A36FD73A /* NIOFoundationCompat in Frameworks */ = {isa = PBXBuildFile; productRef = C3355722EE3D9A4A7AB6542F /* NIOFoundationCompat */; };
+		F863E22E3F6BCF4842797ABB /* HostTagFilterStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45EB7D4A8C7C87FC95CF050 /* HostTagFilterStrip.swift */; };
+		F8BB03A979EA0D5770328BDA /* MobileShellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71262EB8177214B765CC852 /* MobileShellApp.swift */; };
+		FAB800EB81C1D20C74DACF94 /* SSHMoshPreparationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13946977FD5CB7D8F5C344F /* SSHMoshPreparationClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F2FDF1365F256CF685D3627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CAEABFB3390D6D533EC1399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91358D729093D95213503DFA;
+			remoteInfo = MobileShell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B85309D43ECCEE5A9270DCC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E8DE4B7A19B6EBF703FB6ADF /* mosh.xcframework in Embed Frameworks */,
+				D9A40E7F22D629A86FE7BB02 /* Protobuf_C_.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00679781738AEAECDD4DD8AD /* MoshPreparationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshPreparationError.swift; sourceTree = "<group>"; };
+		055E11C671312181C981EF09 /* SFTPStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTPStoreTests.swift; sourceTree = "<group>"; };
+		064CB2CF4383F9188AAB27E5 /* HostGroupStartupSnippetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostGroupStartupSnippetTests.swift; sourceTree = "<group>"; };
+		072E3A05D86970EC42C89931 /* TerminalWorkspaceTemplateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalWorkspaceTemplateTests.swift; sourceTree = "<group>"; };
+		07CF5572775E7782D0F2C052 /* MobileShellStoreHosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreHosts.swift; sourceTree = "<group>"; };
+		0AA7267B7244C20490805E05 /* SOCKS5DynamicPortForwardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOCKS5DynamicPortForwardingTests.swift; sourceTree = "<group>"; };
+		0BC560F27CA8AA8A586DE90C /* MobileShellStoreTestDoubles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreTestDoubles.swift; sourceTree = "<group>"; };
+		0EA72C93585171C40A206DF2 /* MobileShellStorePersistenceHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStorePersistenceHelpers.swift; sourceTree = "<group>"; };
+		13BC251E046A466ADBFB66B4 /* MobileShellStoreKnownHosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreKnownHosts.swift; sourceTree = "<group>"; };
+		1752F3FBA57B5436D17AAE2C /* MoshServerLaunchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshServerLaunchResult.swift; sourceTree = "<group>"; };
+		18F30C7B429EF7F9EBE3E395 /* locales.bundle */ = {isa = PBXFileReference; lastKnownFileType = folder; name = locales.bundle; path = Resources/locales.bundle; sourceTree = SOURCE_ROOT; };
+		19CA27113DCBD9C1BB73BC2B /* MobileShellStorePortForwarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStorePortForwarding.swift; sourceTree = "<group>"; };
+		1C4A4EE270C849D824AE963B /* TerminalThemeInheritanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalThemeInheritanceTests.swift; sourceTree = "<group>"; };
+		1D24199BC62D3B4DF1FF7CDC /* EnvironmentVariablesTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentVariablesTextEditor.swift; sourceTree = "<group>"; };
+		1EBA66A376025C06A25B8EAA /* SessionLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLog.swift; sourceTree = "<group>"; };
+		1F9B78130A2D1EB06CF994CD /* TerminalReconnectStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalReconnectStoreTests.swift; sourceTree = "<group>"; };
+		1FFBEE48E47D872D33C37209 /* MobileShellStoreTerminalSessions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreTerminalSessions.swift; sourceTree = "<group>"; };
+		20F2EA1268B62E40ABBAA6E8 /* MoshTerminalConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshTerminalConnector.swift; sourceTree = "<group>"; };
+		29FD2847EC02EDC18A323E40 /* SnippetStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetStoreTests.swift; sourceTree = "<group>"; };
+		2A7FC163B88BA300DA2B194F /* MoshHostConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshHostConfiguration.swift; sourceTree = "<group>"; };
+		2BCC84F2681EA163543B9037 /* CommandSuggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandSuggestion.swift; sourceTree = "<group>"; };
+		305391382B169A8933854BEF /* PortForwardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortForwardingView.swift; sourceTree = "<group>"; };
+		31085DC886A147787381CAA3 /* StartupSnippetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupSnippetTests.swift; sourceTree = "<group>"; };
+		3394D569EA8021A3BC8FC075 /* TerminalTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalTheme.swift; sourceTree = "<group>"; };
+		37819F1BA251E6D8D89107F9 /* MoshRuntimeClientBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshRuntimeClientBridgeTests.swift; sourceTree = "<group>"; };
+		396655B69B4B698CB0942072 /* MobileShellStoreSnippets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreSnippets.swift; sourceTree = "<group>"; };
+		3B5539BC811D5220D2694DE1 /* MobileShellTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MobileShellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA452325AB89BAACD96494C /* HostChainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostChainTests.swift; sourceTree = "<group>"; };
+		417181D8E6A55AA47E3E60E2 /* SessionLogsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLogsView.swift; sourceTree = "<group>"; };
+		45145DD3CBE8B384E6158622 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		4703B17BE5786BAE5F966E28 /* HostStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostStoreTests.swift; sourceTree = "<group>"; };
+		4722AC14BF8C56D78F9AC36F /* RemoteAccessProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAccessProtocol.swift; sourceTree = "<group>"; };
+		4862E6D7857CA02FF7714750 /* MobileShellStoreTerminalBootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreTerminalBootstrap.swift; sourceTree = "<group>"; };
+		494D1464D067ABF9D3FB838B /* SnippetMultiExecutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetMultiExecutionTests.swift; sourceTree = "<group>"; };
+		4DD1680DE54272EFDCA40196 /* TerminalFontSizeInheritanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalFontSizeInheritanceTests.swift; sourceTree = "<group>"; };
+		57CA0AE4B219D3516A9FD88F /* TerminalShellLifecycleStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalShellLifecycleStoreTests.swift; sourceTree = "<group>"; };
+		5CBDB6FA53D765118864BA3D /* TerminalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalView.swift; sourceTree = "<group>"; };
+		5CEC69D6B46EA2D5E21940D2 /* MobileShellStoreSessionLogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreSessionLogs.swift; sourceTree = "<group>"; };
+		5D22725450EA4D6A4E168B6B /* CommandSuggestionStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandSuggestionStrip.swift; sourceTree = "<group>"; };
+		5D707EF25D93E0BEBB93F0E2 /* KeychainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainView.swift; sourceTree = "<group>"; };
+		5FB857BA18C47C5EEB692051 /* SFTPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTPView.swift; sourceTree = "<group>"; };
+		61CDEE0E4643FBDFFBCDCA5C /* HostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostsView.swift; sourceTree = "<group>"; };
+		675B50E38A159AC71AE654F4 /* HostEnvironmentVariableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostEnvironmentVariableTests.swift; sourceTree = "<group>"; };
+		678FF66499FCDC8A467F6283 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		693A789EB57FD8D3261AFBF4 /* MoshHostConfigurationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshHostConfigurationTests.swift; sourceTree = "<group>"; };
+		6F83AAC3C1362A8AEA95017C /* TerminalWorkspaceTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalWorkspaceTemplate.swift; sourceTree = "<group>"; };
+		72B66E50BC01627D9C9CB575 /* SnippetPackageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetPackageTests.swift; sourceTree = "<group>"; };
+		77F9E7773A803BFD728A9233 /* MoshRuntimeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshRuntimeClient.swift; sourceTree = "<group>"; };
+		781B24A2E10E4592CB281EDA /* MobileShellStoreSFTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreSFTP.swift; sourceTree = "<group>"; };
+		7882BA7753F0DD6A4139A797 /* MoshRuntimeClientBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshRuntimeClientBridge.swift; sourceTree = "<group>"; };
+		794C48A6FE38487D4AEBF2E2 /* TerminalWorkspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalWorkspace.swift; sourceTree = "<group>"; };
+		7BA0160B4195B188DEAADFDF /* HostGroupProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostGroupProfile.swift; sourceTree = "<group>"; };
+		7C4AE07716C3529C1AB87126 /* MobileShellStoreSessionLogBookmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreSessionLogBookmarks.swift; sourceTree = "<group>"; };
+		7C65C779A6B1A9022C2977B7 /* DynamicPortForwardingEndToEndIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicPortForwardingEndToEndIntegrationTests.swift; sourceTree = "<group>"; };
+		7E7734A66130669BAC91F718 /* AuthenticationAssetsStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationAssetsStoreTests.swift; sourceTree = "<group>"; };
+		80498B8D3E4C986574552F8F /* TerminalWorkspaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalWorkspaceTests.swift; sourceTree = "<group>"; };
+		807E42DE436546ACE7DAF2B8 /* Protobuf_C_.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Protobuf_C_.xcframework; path = Vendor/Protobuf_C_.xcframework; sourceTree = "<group>"; };
+		83ADC192F948E4E90825C0E7 /* MoshRuntimeSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshRuntimeSession.swift; sourceTree = "<group>"; };
+		8408515CEB141674E913CF17 /* PortForwardingTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortForwardingTypeTests.swift; sourceTree = "<group>"; };
+		8A2EF186D903C98B8288E304 /* SSHMoshPreparationClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHMoshPreparationClientTests.swift; sourceTree = "<group>"; };
+		8A5D283425B8306182EDC81D /* CitadelMoshPreparationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitadelMoshPreparationClient.swift; sourceTree = "<group>"; };
+		8BA6A8F062C263E4F983E467 /* SessionLogBookmarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLogBookmarkTests.swift; sourceTree = "<group>"; };
+		8BBD7F988857950CE7609D04 /* CommandAutocompleteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandAutocompleteTests.swift; sourceTree = "<group>"; };
+		8CB9F8674511C77471F72FBA /* MoshRuntimeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshRuntimeError.swift; sourceTree = "<group>"; };
+		8CF0BB78083FC95577E12029 /* SOCKS5DynamicPortForwarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SOCKS5DynamicPortForwarding.swift; sourceTree = "<group>"; };
+		8DBB47449D48695B09185642 /* mosh.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = mosh.xcframework; path = Vendor/mosh.xcframework; sourceTree = "<group>"; };
+		8F84E25120E411BEEF57C44D /* HostGroupIdentityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostGroupIdentityTests.swift; sourceTree = "<group>"; };
+		90A420A2E28738FCE2B5B41C /* HostTagNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostTagNavigationTests.swift; sourceTree = "<group>"; };
+		959D5EE476F649518E2F976E /* MobileShell-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileShell-Bridging-Header.h"; sourceTree = "<group>"; };
+		98D0E8F5968BC0CE373EB156 /* MobileShellStoreTerminalCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreTerminalCommands.swift; sourceTree = "<group>"; };
+		9F0504AE19E8FBA64E234A84 /* MoshClientBridgeSmokeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshClientBridgeSmokeTests.swift; sourceTree = "<group>"; };
+		A49A4858DD16E1A3D08FB98B /* KnownHostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownHostsView.swift; sourceTree = "<group>"; };
+		A6FC8FF05C80E33622F47696 /* MoshTerminalRuntimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshTerminalRuntimeTests.swift; sourceTree = "<group>"; };
+		A936EB9A13EF4743EBCF4BA0 /* MobileShell.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MobileShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF36C4FA38ADB41D34796A34 /* MobileShellStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreTests.swift; sourceTree = "<group>"; };
+		B1B73427710C88E8E2336085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B50585395CDB87BD5C6C64BC /* MoshPreparationParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshPreparationParserTests.swift; sourceTree = "<group>"; };
+		B6B9DDFDD301C547BE7F2718 /* MoshClientBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MoshClientBridge.mm; sourceTree = "<group>"; };
+		B7226A9A81F20AD2A785F37B /* KnownHostStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnownHostStoreTests.swift; sourceTree = "<group>"; };
+		BABA194A71CD61B6D0241454 /* ShellRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellRootView.swift; sourceTree = "<group>"; };
+		BC55C02AE66298B6BFA76A2D /* SessionLogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLogDetailView.swift; sourceTree = "<group>"; };
+		BC7C57D9B505AF1D9893F603 /* MoshEndToEndIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshEndToEndIntegrationTests.swift; sourceTree = "<group>"; };
+		C21B7266063E860DB1A79DDD /* SSHCertificateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHCertificateTests.swift; sourceTree = "<group>"; };
+		C2388246F3C61B6796A18CCA /* MobileShellStoreWorkspaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreWorkspaces.swift; sourceTree = "<group>"; };
+		C2987DA84F21A5F9373A58CF /* MoshPreparationParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshPreparationParser.swift; sourceTree = "<group>"; };
+		C3590CF8940AD91620348E4B /* CommandAutocompleteEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandAutocompleteEngine.swift; sourceTree = "<group>"; };
+		C411F593E0D9A96515BB787C /* TerminalWorkspaceSwitcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminalWorkspaceSwitcher.swift; sourceTree = "<group>"; };
+		CBF153045FD797313A3ECD93 /* ShellEnvironmentVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellEnvironmentVariable.swift; sourceTree = "<group>"; };
+		CCE912BECE05D827642E302C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D4AF15DB59528D995AC0A264 /* MobileShellPersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellPersistenceTests.swift; sourceTree = "<group>"; };
+		D5621F770A209859C078BCB9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E0F7E23A41B3BA333011B712 /* MobileShellStoreTerminalShellLifecycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreTerminalShellLifecycle.swift; sourceTree = "<group>"; };
+		E1AD84A3C6FC4167DEABC821 /* MoshClientBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoshClientBridge.h; sourceTree = "<group>"; };
+		E2FB4937E62DB4627B80D0A7 /* SessionLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLogTests.swift; sourceTree = "<group>"; };
+		E45EB7D4A8C7C87FC95CF050 /* HostTagFilterStrip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostTagFilterStrip.swift; sourceTree = "<group>"; };
+		E4CA2CA238CB79937FDAE134 /* MobileShellStoreAuthenticationAssets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreAuthenticationAssets.swift; sourceTree = "<group>"; };
+		E74C4842A3DBFF7E54B72699 /* ShellConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShellConnection.swift; sourceTree = "<group>"; };
+		E88921308A2C052DEC3485CC /* MobileShellStoreHostGroupProfiles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellStoreHostGroupProfiles.swift; sourceTree = "<group>"; };
+		F13946977FD5CB7D8F5C344F /* SSHMoshPreparationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHMoshPreparationClient.swift; sourceTree = "<group>"; };
+		F24AF85E89F97826431422D4 /* MoshPreparationClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshPreparationClient.swift; sourceTree = "<group>"; };
+		F71262EB8177214B765CC852 /* MobileShellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileShellApp.swift; sourceTree = "<group>"; };
+		FAC81514E2B594FDCDB546DA /* PortForwardingStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortForwardingStoreTests.swift; sourceTree = "<group>"; };
+		FC4143FB74A7C3B03C3659CA /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		175CC28B0C4C31FBD5F286E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				816E53454BC46BD6EC4F4CC9 /* Citadel in Frameworks */,
+				5E2B64F643E868B8A4CC74BC /* Crypto in Frameworks */,
+				5F842A9E98C56C9EB98D57BD /* NIO in Frameworks */,
+				C7D448BD5A1B30C3A2636324 /* NIOPosix in Frameworks */,
+				F77DE2F2D48F4DA6A36FD73A /* NIOFoundationCompat in Frameworks */,
+				B6D31F411CE9F085BC7E1933 /* NIOSSH in Frameworks */,
+				6BB361F1B131F218B608DBFD /* mosh.xcframework in Frameworks */,
+				4AB026441D8DD50136B14DB8 /* Protobuf_C_.xcframework in Frameworks */,
+				18FA2E1956440D409044EA31 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BF2D84FD88491A74F2B45DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7029A378632BDDBB4FB3D90 /* Crypto in Frameworks */,
+				E1E1F2AD0944986C58F075C9 /* NIOSSH in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BC8E9D725956FD04AC1F34 /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				7C4AE07716C3529C1AB87126 /* MobileShellStoreSessionLogBookmarks.swift */,
+				5CEC69D6B46EA2D5E21940D2 /* MobileShellStoreSessionLogs.swift */,
+				1EBA66A376025C06A25B8EAA /* SessionLog.swift */,
+				BC55C02AE66298B6BFA76A2D /* SessionLogDetailView.swift */,
+				417181D8E6A55AA47E3E60E2 /* SessionLogsView.swift */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
+		16F85D58AB0D52DE23593369 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				675B50E38A159AC71AE654F4 /* HostEnvironmentVariableTests.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		18BF753CFE55D2659B6A8B3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18F30C7B429EF7F9EBE3E395 /* locales.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1CE509A5062CE13C1A857889 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7F35BC9AEBE927982826123F /* Models */,
+				C847986EDA8DF368DBDFA77C /* Views */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1F1CE104E7DD3FD18C393C90 /* PortForwarding */ = {
+			isa = PBXGroup;
+			children = (
+				7C65C779A6B1A9022C2977B7 /* DynamicPortForwardingEndToEndIntegrationTests.swift */,
+				0AA7267B7244C20490805E05 /* SOCKS5DynamicPortForwardingTests.swift */,
+			);
+			path = PortForwarding;
+			sourceTree = "<group>";
+		};
+		3055375A3961B4B442536338 /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				396655B69B4B698CB0942072 /* MobileShellStoreSnippets.swift */,
+			);
+			path = Snippets;
+			sourceTree = "<group>";
+		};
+		334BC6437B22BEBAC95067BE /* Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				A6FC8FF05C80E33622F47696 /* MoshTerminalRuntimeTests.swift */,
+				4DD1680DE54272EFDCA40196 /* TerminalFontSizeInheritanceTests.swift */,
+				1F9B78130A2D1EB06CF994CD /* TerminalReconnectStoreTests.swift */,
+				57CA0AE4B219D3516A9FD88F /* TerminalShellLifecycleStoreTests.swift */,
+				1C4A4EE270C849D824AE963B /* TerminalThemeInheritanceTests.swift */,
+			);
+			path = Terminal;
+			sourceTree = "<group>";
+		};
+		3B638064B8C09CC6D7270AA9 /* PortForwarding */ = {
+			isa = PBXGroup;
+			children = (
+				19CA27113DCBD9C1BB73BC2B /* MobileShellStorePortForwarding.swift */,
+				305391382B169A8933854BEF /* PortForwardingView.swift */,
+			);
+			path = PortForwarding;
+			sourceTree = "<group>";
+		};
+		462D73A1E21748CDD06A8346 /* PortForwarding */ = {
+			isa = PBXGroup;
+			children = (
+				FAC81514E2B594FDCDB546DA /* PortForwardingStoreTests.swift */,
+				8408515CEB141674E913CF17 /* PortForwardingTypeTests.swift */,
+			);
+			path = PortForwarding;
+			sourceTree = "<group>";
+		};
+		51CBB6532D4B7838DAD409BC = {
+			isa = PBXGroup;
+			children = (
+				E076E7C7CFB737F80747D9D0 /* MobileShell */,
+				745A212383261391DD7FE73F /* MobileShellTests */,
+				18BF753CFE55D2659B6A8B3E /* Resources */,
+				C041B9DBE1788AD193A5A8C7 /* Frameworks */,
+				F7C51D39BF03E0E987387FD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B09F3CECA980948164FC832 /* Workspaces */ = {
+			isa = PBXGroup;
+			children = (
+				C2388246F3C61B6796A18CCA /* MobileShellStoreWorkspaces.swift */,
+				794C48A6FE38487D4AEBF2E2 /* TerminalWorkspace.swift */,
+				C411F593E0D9A96515BB787C /* TerminalWorkspaceSwitcher.swift */,
+				6F83AAC3C1362A8AEA95017C /* TerminalWorkspaceTemplate.swift */,
+			);
+			path = Workspaces;
+			sourceTree = "<group>";
+		};
+		5CE42981FD76DCDFBEE85C87 /* SFTP */ = {
+			isa = PBXGroup;
+			children = (
+				781B24A2E10E4592CB281EDA /* MobileShellStoreSFTP.swift */,
+				5FB857BA18C47C5EEB692051 /* SFTPView.swift */,
+			);
+			path = SFTP;
+			sourceTree = "<group>";
+		};
+		607BE169548D05F628F46053 /* Workspaces */ = {
+			isa = PBXGroup;
+			children = (
+				072E3A05D86970EC42C89931 /* TerminalWorkspaceTemplateTests.swift */,
+				80498B8D3E4C986574552F8F /* TerminalWorkspaceTests.swift */,
+			);
+			path = Workspaces;
+			sourceTree = "<group>";
+		};
+		615AF253247F12B48E517E7A /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				5D707EF25D93E0BEBB93F0E2 /* KeychainView.swift */,
+				E4CA2CA238CB79937FDAE134 /* MobileShellStoreAuthenticationAssets.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		61B40C9D7941F4A4DD973DCA /* Bridge */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD84A3C6FC4167DEABC821 /* MoshClientBridge.h */,
+				B6B9DDFDD301C547BE7F2718 /* MoshClientBridge.mm */,
+				7882BA7753F0DD6A4139A797 /* MoshRuntimeClientBridge.swift */,
+			);
+			path = Bridge;
+			sourceTree = "<group>";
+		};
+		63C4AFE7A01E59652D1DEF5E /* HostGroups */ = {
+			isa = PBXGroup;
+			children = (
+				8F84E25120E411BEEF57C44D /* HostGroupIdentityTests.swift */,
+				064CB2CF4383F9188AAB27E5 /* HostGroupStartupSnippetTests.swift */,
+			);
+			path = HostGroups;
+			sourceTree = "<group>";
+		};
+		68828ECC1C44708A143C23B5 /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+				8BA6A8F062C263E4F983E467 /* SessionLogBookmarkTests.swift */,
+				E2FB4937E62DB4627B80D0A7 /* SessionLogTests.swift */,
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
+		6D1CD10BCA937A242F751580 /* Hosts */ = {
+			isa = PBXGroup;
+			children = (
+				61CDEE0E4643FBDFFBCDCA5C /* HostsView.swift */,
+				E45EB7D4A8C7C87FC95CF050 /* HostTagFilterStrip.swift */,
+				A49A4858DD16E1A3D08FB98B /* KnownHostsView.swift */,
+				07CF5572775E7782D0F2C052 /* MobileShellStoreHosts.swift */,
+				13BC251E046A466ADBFB66B4 /* MobileShellStoreKnownHosts.swift */,
+			);
+			path = Hosts;
+			sourceTree = "<group>";
+		};
+		745A212383261391DD7FE73F /* MobileShellTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B73427710C88E8E2336085 /* Info.plist */,
+				D4AF15DB59528D995AC0A264 /* MobileShellPersistenceTests.swift */,
+				AF36C4FA38ADB41D34796A34 /* MobileShellStoreTests.swift */,
+				EC8463E1ED22D82FDF09A5FC /* Features */,
+				B55FE424F926A6711BF383D1 /* Services */,
+				B537D6475853CF042E791CE5 /* TestSupport */,
+			);
+			path = MobileShellTests;
+			sourceTree = "<group>";
+		};
+		7CB5EDF992A25108D34C7A69 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9606A36B9FEF9FF80A415546 /* Mosh */,
+				DE253BF49F3DD95DCC2F8288 /* PortForwarding */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7F35BC9AEBE927982826123F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A7FC163B88BA300DA2B194F /* MoshHostConfiguration.swift */,
+				4722AC14BF8C56D78F9AC36F /* RemoteAccessProtocol.swift */,
+				CBF153045FD797313A3ECD93 /* ShellEnvironmentVariable.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		932866C17F0363D0F66A6094 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				7E7734A66130669BAC91F718 /* AuthenticationAssetsStoreTests.swift */,
+				C21B7266063E860DB1A79DDD /* SSHCertificateTests.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		946C0F7EAA9537CB2EA465C0 /* Mosh */ = {
+			isa = PBXGroup;
+			children = (
+				9F0504AE19E8FBA64E234A84 /* MoshClientBridgeSmokeTests.swift */,
+				BC7C57D9B505AF1D9893F603 /* MoshEndToEndIntegrationTests.swift */,
+				B50585395CDB87BD5C6C64BC /* MoshPreparationParserTests.swift */,
+				37819F1BA251E6D8D89107F9 /* MoshRuntimeClientBridgeTests.swift */,
+				8A2EF186D903C98B8288E304 /* SSHMoshPreparationClientTests.swift */,
+			);
+			path = Mosh;
+			sourceTree = "<group>";
+		};
+		952D2268685189FE75C0EA50 /* HostGroups */ = {
+			isa = PBXGroup;
+			children = (
+				7BA0160B4195B188DEAADFDF /* HostGroupProfile.swift */,
+				E88921308A2C052DEC3485CC /* MobileShellStoreHostGroupProfiles.swift */,
+			);
+			path = HostGroups;
+			sourceTree = "<group>";
+		};
+		9606A36B9FEF9FF80A415546 /* Mosh */ = {
+			isa = PBXGroup;
+			children = (
+				8A5D283425B8306182EDC81D /* CitadelMoshPreparationClient.swift */,
+				F24AF85E89F97826431422D4 /* MoshPreparationClient.swift */,
+				00679781738AEAECDD4DD8AD /* MoshPreparationError.swift */,
+				C2987DA84F21A5F9373A58CF /* MoshPreparationParser.swift */,
+				77F9E7773A803BFD728A9233 /* MoshRuntimeClient.swift */,
+				8CB9F8674511C77471F72FBA /* MoshRuntimeError.swift */,
+				83ADC192F948E4E90825C0E7 /* MoshRuntimeSession.swift */,
+				1752F3FBA57B5436D17AAE2C /* MoshServerLaunchResult.swift */,
+				20F2EA1268B62E40ABBAA6E8 /* MoshTerminalConnector.swift */,
+				F13946977FD5CB7D8F5C344F /* SSHMoshPreparationClient.swift */,
+				61B40C9D7941F4A4DD973DCA /* Bridge */,
+			);
+			path = Mosh;
+			sourceTree = "<group>";
+		};
+		9CC005BCEA2F1B653B620A27 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				0EA72C93585171C40A206DF2 /* MobileShellStorePersistenceHelpers.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		9CE0B2A03343BBEBD4E3DE5F /* HostChains */ = {
+			isa = PBXGroup;
+			children = (
+				3DA452325AB89BAACD96494C /* HostChainTests.swift */,
+			);
+			path = HostChains;
+			sourceTree = "<group>";
+		};
+		B537D6475853CF042E791CE5 /* TestSupport */ = {
+			isa = PBXGroup;
+			children = (
+				0BC560F27CA8AA8A586DE90C /* MobileShellStoreTestDoubles.swift */,
+			);
+			path = TestSupport;
+			sourceTree = "<group>";
+		};
+		B55FE424F926A6711BF383D1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				946C0F7EAA9537CB2EA465C0 /* Mosh */,
+				1F1CE104E7DD3FD18C393C90 /* PortForwarding */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BECF3D51E72346969DF0A3ED /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				494D1464D067ABF9D3FB838B /* SnippetMultiExecutionTests.swift */,
+				72B66E50BC01627D9C9CB575 /* SnippetPackageTests.swift */,
+				29FD2847EC02EDC18A323E40 /* SnippetStoreTests.swift */,
+				31085DC886A147787381CAA3 /* StartupSnippetTests.swift */,
+			);
+			path = Snippets;
+			sourceTree = "<group>";
+		};
+		C041B9DBE1788AD193A5A8C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				678FF66499FCDC8A467F6283 /* libz.tbd */,
+				8DBB47449D48695B09185642 /* mosh.xcframework */,
+				807E42DE436546ACE7DAF2B8 /* Protobuf_C_.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C847986EDA8DF368DBDFA77C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5621F770A209859C078BCB9 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D2AA5CF9E350227FA2092269 /* Hosts */ = {
+			isa = PBXGroup;
+			children = (
+				4703B17BE5786BAE5F966E28 /* HostStoreTests.swift */,
+				90A420A2E28738FCE2B5B41C /* HostTagNavigationTests.swift */,
+				B7226A9A81F20AD2A785F37B /* KnownHostStoreTests.swift */,
+				693A789EB57FD8D3261AFBF4 /* MoshHostConfigurationTests.swift */,
+			);
+			path = Hosts;
+			sourceTree = "<group>";
+		};
+		D8F871C92CD05C40CA14550E /* Autocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				8BBD7F988857950CE7609D04 /* CommandAutocompleteTests.swift */,
+			);
+			path = Autocomplete;
+			sourceTree = "<group>";
+		};
+		DE253BF49F3DD95DCC2F8288 /* PortForwarding */ = {
+			isa = PBXGroup;
+			children = (
+				8CF0BB78083FC95577E12029 /* SOCKS5DynamicPortForwarding.swift */,
+			);
+			path = PortForwarding;
+			sourceTree = "<group>";
+		};
+		E06BFF97675D9BB909F24E65 /* Autocomplete */ = {
+			isa = PBXGroup;
+			children = (
+				C3590CF8940AD91620348E4B /* CommandAutocompleteEngine.swift */,
+				2BCC84F2681EA163543B9037 /* CommandSuggestion.swift */,
+				5D22725450EA4D6A4E168B6B /* CommandSuggestionStrip.swift */,
+			);
+			path = Autocomplete;
+			sourceTree = "<group>";
+		};
+		E076E7C7CFB737F80747D9D0 /* MobileShell */ = {
+			isa = PBXGroup;
+			children = (
+				CCE912BECE05D827642E302C /* Info.plist */,
+				959D5EE476F649518E2F976E /* MobileShell-Bridging-Header.h */,
+				F71262EB8177214B765CC852 /* MobileShellApp.swift */,
+				45145DD3CBE8B384E6158622 /* Models.swift */,
+				FC4143FB74A7C3B03C3659CA /* Persistence.swift */,
+				E74C4842A3DBFF7E54B72699 /* ShellConnection.swift */,
+				BABA194A71CD61B6D0241454 /* ShellRootView.swift */,
+				FA3E6FB9AC854B7F5CE7A685 /* Features */,
+				9CC005BCEA2F1B653B620A27 /* Persistence */,
+				7CB5EDF992A25108D34C7A69 /* Services */,
+				1CE509A5062CE13C1A857889 /* Shared */,
+			);
+			path = MobileShell;
+			sourceTree = "<group>";
+		};
+		E4404346FABF75D9938E4695 /* SFTP */ = {
+			isa = PBXGroup;
+			children = (
+				055E11C671312181C981EF09 /* SFTPStoreTests.swift */,
+			);
+			path = SFTP;
+			sourceTree = "<group>";
+		};
+		EA6575EA123F1B83EAABC7C7 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				1D24199BC62D3B4DF1FF7CDC /* EnvironmentVariablesTextEditor.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		EC8463E1ED22D82FDF09A5FC /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D8F871C92CD05C40CA14550E /* Autocomplete */,
+				16F85D58AB0D52DE23593369 /* Environment */,
+				9CE0B2A03343BBEBD4E3DE5F /* HostChains */,
+				63C4AFE7A01E59652D1DEF5E /* HostGroups */,
+				D2AA5CF9E350227FA2092269 /* Hosts */,
+				932866C17F0363D0F66A6094 /* Keychain */,
+				68828ECC1C44708A143C23B5 /* Logs */,
+				462D73A1E21748CDD06A8346 /* PortForwarding */,
+				E4404346FABF75D9938E4695 /* SFTP */,
+				BECF3D51E72346969DF0A3ED /* Snippets */,
+				334BC6437B22BEBAC95067BE /* Terminal */,
+				607BE169548D05F628F46053 /* Workspaces */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F7C51D39BF03E0E987387FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A936EB9A13EF4743EBCF4BA0 /* MobileShell.app */,
+				3B5539BC811D5220D2694DE1 /* MobileShellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA3E6FB9AC854B7F5CE7A685 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				E06BFF97675D9BB909F24E65 /* Autocomplete */,
+				EA6575EA123F1B83EAABC7C7 /* Environment */,
+				952D2268685189FE75C0EA50 /* HostGroups */,
+				6D1CD10BCA937A242F751580 /* Hosts */,
+				615AF253247F12B48E517E7A /* Keychain */,
+				07BC8E9D725956FD04AC1F34 /* Logs */,
+				3B638064B8C09CC6D7270AA9 /* PortForwarding */,
+				5CE42981FD76DCDFBEE85C87 /* SFTP */,
+				3055375A3961B4B442536338 /* Snippets */,
+				FDC64153C5FFBACE51BBE1E9 /* Terminal */,
+				5B09F3CECA980948164FC832 /* Workspaces */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FDC64153C5FFBACE51BBE1E9 /* Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				4862E6D7857CA02FF7714750 /* MobileShellStoreTerminalBootstrap.swift */,
+				98D0E8F5968BC0CE373EB156 /* MobileShellStoreTerminalCommands.swift */,
+				1FFBEE48E47D872D33C37209 /* MobileShellStoreTerminalSessions.swift */,
+				E0F7E23A41B3BA333011B712 /* MobileShellStoreTerminalShellLifecycle.swift */,
+				3394D569EA8021A3BC8FC075 /* TerminalTheme.swift */,
+				5CBDB6FA53D765118864BA3D /* TerminalView.swift */,
+			);
+			path = Terminal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91358D729093D95213503DFA /* MobileShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E7ECBDC1ECF659D24D9C13 /* Build configuration list for PBXNativeTarget "MobileShell" */;
+			buildPhases = (
+				996B87F700A4967F7524B51B /* Sources */,
+				FB6BDBE848FFB9649E4E7DDF /* Resources */,
+				175CC28B0C4C31FBD5F286E2 /* Frameworks */,
+				5B85309D43ECCEE5A9270DCC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileShell;
+			packageProductDependencies = (
+				564FE2606D596831E931C4BF /* Citadel */,
+				6CFD5DF75CAD26F57847BF86 /* Crypto */,
+				D12DCFB7EDFBC7E557B0C80B /* NIO */,
+				D3CB542815077430584B3C6F /* NIOPosix */,
+				C3355722EE3D9A4A7AB6542F /* NIOFoundationCompat */,
+				B9325A43A4370F6BC23B4381 /* NIOSSH */,
+			);
+			productName = MobileShell;
+			productReference = A936EB9A13EF4743EBCF4BA0 /* MobileShell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B69FDA641C9073C4D7622224 /* MobileShellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6538C1B2BFF24FA2828D2A6F /* Build configuration list for PBXNativeTarget "MobileShellTests" */;
+			buildPhases = (
+				CA6ACBBE00240D4114549127 /* Sources */,
+				5BF2D84FD88491A74F2B45DE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59D472BBC24BD44B77037B8D /* PBXTargetDependency */,
+			);
+			name = MobileShellTests;
+			packageProductDependencies = (
+				2BE4BAF7EB71462B5FF2B7BE /* Crypto */,
+				4D0CC2B65CF0F0C7365E7172 /* NIOSSH */,
+			);
+			productName = MobileShellTests;
+			productReference = 3B5539BC811D5220D2694DE1 /* MobileShellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CAEABFB3390D6D533EC1399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = ADAD6D76CF8726FD7C6153D6 /* Build configuration list for PBXProject "MobileShell" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 51CBB6532D4B7838DAD409BC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A3CE596996EFAE9FBDF19158 /* XCRemoteSwiftPackageReference "Citadel" */,
+				07C3AA27FE4BCE0F77EF14D9 /* XCRemoteSwiftPackageReference "swift-crypto" */,
+				FC575E746F99AAD6EA6E68B2 /* XCRemoteSwiftPackageReference "swift-nio" */,
+				CBE8225594E6C7B672C46504 /* XCRemoteSwiftPackageReference "swift-nio-ssh" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F7C51D39BF03E0E987387FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91358D729093D95213503DFA /* MobileShell */,
+				B69FDA641C9073C4D7622224 /* MobileShellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB6BDBE848FFB9649E4E7DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030C8C5F5418167044E20F25 /* locales.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		996B87F700A4967F7524B51B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD850FFB45E1AE2489931A2B /* CitadelMoshPreparationClient.swift in Sources */,
+				F1FC7688DFBC2F124072708E /* CommandAutocompleteEngine.swift in Sources */,
+				CC2F6CB75BA88A4A07FD0AC7 /* CommandSuggestion.swift in Sources */,
+				E6969988C656E548D845CABA /* CommandSuggestionStrip.swift in Sources */,
+				383F0D65CEC5065120EF73D8 /* EnvironmentVariablesTextEditor.swift in Sources */,
+				5EEBF68344A6645DAC4CFC27 /* HostGroupProfile.swift in Sources */,
+				F863E22E3F6BCF4842797ABB /* HostTagFilterStrip.swift in Sources */,
+				52A2E3DBFDB3B69637FAAD74 /* HostsView.swift in Sources */,
+				632984B4243821D5CC6FEB40 /* KeychainView.swift in Sources */,
+				1B3D2A7DA56937D2DE91E517 /* KnownHostsView.swift in Sources */,
+				F8BB03A979EA0D5770328BDA /* MobileShellApp.swift in Sources */,
+				81E69E9A9194921D5FCD3642 /* MobileShellStoreAuthenticationAssets.swift in Sources */,
+				D55856E68DA8C9317D4DB3F0 /* MobileShellStoreHostGroupProfiles.swift in Sources */,
+				D979CCC7BC9A5C51C9D52FCC /* MobileShellStoreHosts.swift in Sources */,
+				D04BDCBD6F2035C646D95EC6 /* MobileShellStoreKnownHosts.swift in Sources */,
+				9268BBFF44F7CBC19ADEEB82 /* MobileShellStorePersistenceHelpers.swift in Sources */,
+				890232F75FEA087639B7CAD4 /* MobileShellStorePortForwarding.swift in Sources */,
+				268AF9B3A91900A6B6DFFD5F /* MobileShellStoreSFTP.swift in Sources */,
+				2B798F37EBBD30942FEA02A1 /* MobileShellStoreSessionLogBookmarks.swift in Sources */,
+				ED06EA34F6924E548822C49E /* MobileShellStoreSessionLogs.swift in Sources */,
+				BFE2864C697CFE33475115E2 /* MobileShellStoreSnippets.swift in Sources */,
+				141E481A1D30A0D75355AE5D /* MobileShellStoreTerminalBootstrap.swift in Sources */,
+				0BA36F4B7339E93B33619212 /* MobileShellStoreTerminalCommands.swift in Sources */,
+				4689E3B282BF22CB45B3FE84 /* MobileShellStoreTerminalSessions.swift in Sources */,
+				6429F9219DAAF545D2EED842 /* MobileShellStoreTerminalShellLifecycle.swift in Sources */,
+				60A2E7F828DE70DD3AD45C39 /* MobileShellStoreWorkspaces.swift in Sources */,
+				9E351169BEE0B5389C24DC74 /* Models.swift in Sources */,
+				7EC51BA9F7F7442B6F0A7F68 /* MoshClientBridge.mm in Sources */,
+				E81D806D28C2CAAA7966A0F3 /* MoshHostConfiguration.swift in Sources */,
+				4D998460556D2484A71A3E1A /* MoshPreparationClient.swift in Sources */,
+				E54E26242B2F2AB1E76DB198 /* MoshPreparationError.swift in Sources */,
+				8BF4BF986B1AB42C988146C3 /* MoshPreparationParser.swift in Sources */,
+				E46F90D684AB11BD341D75C9 /* MoshRuntimeClient.swift in Sources */,
+				7727C4CBAEC01F98F85AB68A /* MoshRuntimeClientBridge.swift in Sources */,
+				EE83739C1E7EBA62C004CAFB /* MoshRuntimeError.swift in Sources */,
+				B7FB44D356F6B2BDED42D70C /* MoshRuntimeSession.swift in Sources */,
+				5EDDED09E2599985F5FAFFC6 /* MoshServerLaunchResult.swift in Sources */,
+				07682DECEC930A6A5F0093F7 /* MoshTerminalConnector.swift in Sources */,
+				BA9C9F6118AC764849A5F3C2 /* Persistence.swift in Sources */,
+				90EB9C119A7937ED9BF2933C /* PortForwardingView.swift in Sources */,
+				70486E46C21949BE2BABFE51 /* RemoteAccessProtocol.swift in Sources */,
+				217800053E802CD724B95544 /* SFTPView.swift in Sources */,
+				5BBAFC8D9A83038208C59D78 /* SOCKS5DynamicPortForwarding.swift in Sources */,
+				FAB800EB81C1D20C74DACF94 /* SSHMoshPreparationClient.swift in Sources */,
+				2815A2BF8F6C21AD8A1B9D02 /* SessionLog.swift in Sources */,
+				24E2B923D3E1DB63BFA68BB6 /* SessionLogDetailView.swift in Sources */,
+				CBCD2BCDC82A2B0AB2CF17BC /* SessionLogsView.swift in Sources */,
+				4266895DB779403121A1E8E3 /* SettingsView.swift in Sources */,
+				70B6AED4EDE2594137EDDC9C /* ShellConnection.swift in Sources */,
+				C1672ACF335D8C396F9A7AB0 /* ShellEnvironmentVariable.swift in Sources */,
+				49CA2EE375009973D618A1F2 /* ShellRootView.swift in Sources */,
+				284AE247F2708CBDFC413D3D /* TerminalTheme.swift in Sources */,
+				6B254A2DC25981AB440E6F5C /* TerminalView.swift in Sources */,
+				136968053B8EFF3C03D0BC7B /* TerminalWorkspace.swift in Sources */,
+				836BD542F5E78B2F72F8AB30 /* TerminalWorkspaceSwitcher.swift in Sources */,
+				74A60A4F49CA948579FED962 /* TerminalWorkspaceTemplate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA6ACBBE00240D4114549127 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B73A0986D29ECFF1FBBC7AF1 /* AuthenticationAssetsStoreTests.swift in Sources */,
+				C2FFB4CAE5D5825FF05336BF /* CommandAutocompleteTests.swift in Sources */,
+				9C6277E665DCEE50B13479BF /* DynamicPortForwardingEndToEndIntegrationTests.swift in Sources */,
+				6839CA6D98C712D050E47281 /* HostChainTests.swift in Sources */,
+				4A3388C89B56AC81AE08E372 /* HostEnvironmentVariableTests.swift in Sources */,
+				0206C8D9389D7CA2BB042BE7 /* HostGroupIdentityTests.swift in Sources */,
+				0DFF1B985B3EE92109F9BB15 /* HostGroupStartupSnippetTests.swift in Sources */,
+				04B477020ADF9708D5956EDC /* HostStoreTests.swift in Sources */,
+				B3668464A6FD6079852BB12B /* HostTagNavigationTests.swift in Sources */,
+				C672B708E9D0E44912F3CECA /* KnownHostStoreTests.swift in Sources */,
+				A12D931EA0F9854C395E1772 /* MobileShellPersistenceTests.swift in Sources */,
+				A0453DFCB45D15BCC7AF5F0D /* MobileShellStoreTestDoubles.swift in Sources */,
+				60A85E017B7BF7B6AA66C10B /* MobileShellStoreTests.swift in Sources */,
+				A7864ED2CA65C9A6F35EA8FA /* MoshClientBridgeSmokeTests.swift in Sources */,
+				4CA64858ADBEEABD29B9180D /* MoshEndToEndIntegrationTests.swift in Sources */,
+				363709F2AF5496296B4AF760 /* MoshHostConfigurationTests.swift in Sources */,
+				6FAF2EA584AE5DF7AA81BCCD /* MoshPreparationParserTests.swift in Sources */,
+				7C446CC9A84A6B3826270C1D /* MoshRuntimeClientBridgeTests.swift in Sources */,
+				90609144F8D82E2D3DFA529E /* MoshTerminalRuntimeTests.swift in Sources */,
+				01805A6AF891F3BE9CC21FF9 /* PortForwardingStoreTests.swift in Sources */,
+				914670E23817B76F7AF4AAB7 /* PortForwardingTypeTests.swift in Sources */,
+				C70A28C88063529A2158054B /* SFTPStoreTests.swift in Sources */,
+				AAE2FF49DF1E046C12FC4314 /* SOCKS5DynamicPortForwardingTests.swift in Sources */,
+				B3BDB23A890166636D32C17F /* SSHCertificateTests.swift in Sources */,
+				4A5B0506D175AE9CCBA1BA3A /* SSHMoshPreparationClientTests.swift in Sources */,
+				3B40B91CA286B6C425903636 /* SessionLogBookmarkTests.swift in Sources */,
+				AA0E4894DB3C31CAF753808E /* SessionLogTests.swift in Sources */,
+				45627C1C66EEB901266E2039 /* SnippetMultiExecutionTests.swift in Sources */,
+				5D0FE02ADFFB6E7C79273F31 /* SnippetPackageTests.swift in Sources */,
+				402F1E1150334C239D0A7449 /* SnippetStoreTests.swift in Sources */,
+				BC8493AEF6271A5D38D9AE76 /* StartupSnippetTests.swift in Sources */,
+				492FA19A922C3FE19359C800 /* TerminalFontSizeInheritanceTests.swift in Sources */,
+				C7B12C58B22AE27745EA9832 /* TerminalReconnectStoreTests.swift in Sources */,
+				EA741C8626676657D5CCFB9A /* TerminalShellLifecycleStoreTests.swift in Sources */,
+				999F49516C8ADC87074DAF04 /* TerminalThemeInheritanceTests.swift in Sources */,
+				DDB8B3CB7C5DD3F41CA80E11 /* TerminalWorkspaceTemplateTests.swift in Sources */,
+				71223226B9A191EED5CA64B7 /* TerminalWorkspaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59D472BBC24BD44B77037B8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91358D729093D95213503DFA /* MobileShell */;
+			targetProxy = 3F2FDF1365F256CF685D3627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D616403AFAB07572AE96469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = MobileShellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.MobileShellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileShell.app/MobileShell";
+			};
+			name = Release;
+		};
+		52F59BC1E4A2A76590B02AA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Vendor\"",
+				);
+				INFOPLIST_FILE = MobileShell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.MobileShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileShell/MobileShell-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6D33010B95A93B2B440DBCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = MobileShellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.MobileShellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileShell.app/MobileShell";
+			};
+			name = Debug;
+		};
+		7AB2D24C5829FC7168269D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7F6DDB89EC5133BB219C9FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Vendor\"",
+				);
+				INFOPLIST_FILE = MobileShell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.local.MobileShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "MobileShell/MobileShell-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B16169D24AEBAFF8DE15CA61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57E7ECBDC1ECF659D24D9C13 /* Build configuration list for PBXNativeTarget "MobileShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6DDB89EC5133BB219C9FB4 /* Debug */,
+				52F59BC1E4A2A76590B02AA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6538C1B2BFF24FA2828D2A6F /* Build configuration list for PBXNativeTarget "MobileShellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D33010B95A93B2B440DBCB3 /* Debug */,
+				0D616403AFAB07572AE96469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ADAD6D76CF8726FD7C6153D6 /* Build configuration list for PBXProject "MobileShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16169D24AEBAFF8DE15CA61 /* Debug */,
+				7AB2D24C5829FC7168269D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07C3AA27FE4BCE0F77EF14D9 /* XCRemoteSwiftPackageReference "swift-crypto" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-crypto.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.15.1;
+			};
+		};
+		A3CE596996EFAE9FBDF19158 /* XCRemoteSwiftPackageReference "Citadel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orlandos-nl/Citadel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.1;
+			};
+		};
+		CBE8225594E6C7B672C46504 /* XCRemoteSwiftPackageReference "swift-nio-ssh" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wellz26/swift-nio-ssh.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.6;
+			};
+		};
+		FC575E746F99AAD6EA6E68B2 /* XCRemoteSwiftPackageReference "swift-nio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-nio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.101.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2BE4BAF7EB71462B5FF2B7BE /* Crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07C3AA27FE4BCE0F77EF14D9 /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = Crypto;
+		};
+		4D0CC2B65CF0F0C7365E7172 /* NIOSSH */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBE8225594E6C7B672C46504 /* XCRemoteSwiftPackageReference "swift-nio-ssh" */;
+			productName = NIOSSH;
+		};
+		564FE2606D596831E931C4BF /* Citadel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A3CE596996EFAE9FBDF19158 /* XCRemoteSwiftPackageReference "Citadel" */;
+			productName = Citadel;
+		};
+		6CFD5DF75CAD26F57847BF86 /* Crypto */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07C3AA27FE4BCE0F77EF14D9 /* XCRemoteSwiftPackageReference "swift-crypto" */;
+			productName = Crypto;
+		};
+		B9325A43A4370F6BC23B4381 /* NIOSSH */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBE8225594E6C7B672C46504 /* XCRemoteSwiftPackageReference "swift-nio-ssh" */;
+			productName = NIOSSH;
+		};
+		C3355722EE3D9A4A7AB6542F /* NIOFoundationCompat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC575E746F99AAD6EA6E68B2 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOFoundationCompat;
+		};
+		D12DCFB7EDFBC7E557B0C80B /* NIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC575E746F99AAD6EA6E68B2 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIO;
+		};
+		D3CB542815077430584B3C6F /* NIOPosix */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC575E746F99AAD6EA6E68B2 /* XCRemoteSwiftPackageReference "swift-nio" */;
+			productName = NIOPosix;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5CAEABFB3390D6D533EC1399 /* Project object */;
+}

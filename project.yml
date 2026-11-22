@@ -1,0 +1,90 @@
+name: MobileShell
+options:
+  createIntermediateGroups: true
+configs:
+  Debug: debug
+  Release: release
+packages:
+  Citadel:
+    url: https://github.com/orlandos-nl/Citadel.git
+    from: 0.12.1
+  swift-crypto:
+    url: https://github.com/apple/swift-crypto.git
+    from: 3.15.1
+  swift-nio:
+    url: https://github.com/apple/swift-nio.git
+    from: 2.101.0
+  swift-nio-ssh:
+    url: https://github.com/Wellz26/swift-nio-ssh.git
+    from: 0.3.6
+targets:
+  MobileShell:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: MobileShell
+      - path: Resources/locales.bundle
+        buildPhase: resources
+        type: folder
+    info:
+      path: MobileShell/Info.plist
+      properties:
+        UILaunchScreen: {}
+        UIApplicationSupportsIndirectInputEvents: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.local.MobileShell
+        PRODUCT_NAME: "$(TARGET_NAME)"
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0
+        SWIFT_VERSION: 6.0
+        SWIFT_OBJC_BRIDGING_HEADER: MobileShell/MobileShell-Bridging-Header.h
+        CLANG_CXX_LANGUAGE_STANDARD: gnu++20
+        LD_RUNPATH_SEARCH_PATHS:
+          - "$(inherited)"
+          - "@executable_path/Frameworks"
+    dependencies:
+      - package: Citadel
+        product: Citadel
+      - package: swift-crypto
+        product: Crypto
+      - package: swift-nio
+        product: NIO
+      - package: swift-nio
+        product: NIOPosix
+      - package: swift-nio
+        product: NIOFoundationCompat
+      - package: swift-nio-ssh
+        product: NIOSSH
+      - framework: Vendor/mosh.xcframework
+      - framework: Vendor/Protobuf_C_.xcframework
+      - sdk: libz.tbd
+
+  MobileShellTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: MobileShellTests
+    info:
+      path: MobileShellTests/Info.plist
+      properties: {}
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.local.MobileShellTests
+        PRODUCT_NAME: "$(TARGET_NAME)"
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0
+        SWIFT_VERSION: 6.0
+        CLANG_CXX_LANGUAGE_STANDARD: gnu++20
+        LD_RUNPATH_SEARCH_PATHS:
+          - "$(inherited)"
+          - "@executable_path/Frameworks"
+          - "@loader_path/Frameworks"
+    dependencies:
+      - target: MobileShell
+      - package: swift-crypto
+        product: Crypto
+      - package: swift-nio-ssh
+        product: NIOSSH
